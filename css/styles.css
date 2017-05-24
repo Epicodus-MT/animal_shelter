@@ -1,15 +1,18 @@
+.everything {
+  position: absolute;
+}
+
 .animal_profiles {
   width: 500px;
   float: left;
   border: 2px solid black;
-  height: 350px;
+  height: 400px;
   margin: 10px;
   text-align: center;
 }
 
 .about_me {
-  position: absolute;
-  bottom: 150px;
+  margin-top: 10px;
 }
 
 .animal_profiles p {
@@ -17,19 +20,10 @@
   font-family: sans-serif;
 }
 
-.bottom_row {
-  position: absolute;
-  bottom: 300px;
-}
-
 .animal_profiles#dog {
   background: #D0FCFA;
 }
 
-.animal_profiles#dog p {
-  font-size: 24px;
-  font-family: sans-serif;
-}
 .animal_profiles#cat {
   background: #DEFCD0;
 }
@@ -45,4 +39,10 @@
 h3 {
   font-size: 32px;
   font-family: cursive;
+}
+
+@media screen (min-width: 1400px) {
+  .bottom_row {
+  max-width: 200px;
+  }
 }
